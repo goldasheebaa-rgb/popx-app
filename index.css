@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary: #6C25FF;
+  --color-primary-light: #DDD3FB;
+  --color-text-dark: #1A1A1A;
+  --color-label: #6C25FF;
+  --color-placeholder: #9C9C9C;
+  --color-border: #C9C9C9;
+  --color-bg: #F5F5F5;
+  --color-white: #FFFFFF;
+  --color-disabled: #C7C7C7;
+  --font-main: 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #E9E9E9;
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  font-family: inherit;
+}

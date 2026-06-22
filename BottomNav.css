@@ -1,0 +1,36 @@
+.bottom-nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  background: #FAFAFA;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 32px;
+}
+
+.nav-icon {
+  background: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.chat-badge {
+  position: absolute;
+  top: -4px;
+  right: -10px;
+  background: #555555;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 2px 5px;
+  min-width: 18px;
+  text-align: center;
+  line-height: 1.3;
+}

@@ -1,0 +1,34 @@
+.mobile-frame-outer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 24px 12px;
+}
+
+.mobile-frame {
+  width: 100%;
+  max-width: 414px;
+  min-height: 850px;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  position: relative;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
+}
+
+.mobile-frame.no-padding {
+  padding: 0;
+}
+
+@media (max-width: 440px) {
+  .mobile-frame-outer {
+    padding: 0;
+  }
+  .mobile-frame {
+    max-width: 100%;
+    min-height: 100vh;
+    box-shadow: none;
+  }
+}
